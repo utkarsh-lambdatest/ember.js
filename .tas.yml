@@ -6,11 +6,11 @@ preRun:
 
 preMerge:
   pattern:
-    - "node-tests/blueprints/**/*-test.js"
+    - "**/*-test.js"
 
 postMerge:
   pattern: 
-    - "node-tests/blueprints/**/*-test.js"
+    - "**/*-test.js"
 
 
 version: 1.0
